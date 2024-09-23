@@ -18,7 +18,9 @@ export default defineConfig({
         text: '简介',
         items: [
           { text: '快速开始', link: '/guide/start' },
-          { text: '如何反馈', link: '/guide/feedback' }
+          { text: '如何反馈', link: '/guide/feedback' },
+          { text: '安装', link: '/guide/install'},
+          { text: '疑难解答', link: '/guide/qa'}
         ]
       },
       {
