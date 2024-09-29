@@ -9,8 +9,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.svg',
     nav: [
-      { text: '主页', link: '/' },
-      { text: '下载', link: 'https://arcomua.com/' }
+      { text: '主页', link: 'https://arcomua.com/' },
+      { text: '帮助', link: '/' }
     ],
 
     sidebar: [
