@@ -2,9 +2,10 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  lang: "zh-Hans",
-  title: "Arcomua Help Center",
-  description: "Online documents for Arcomua Modpack.",
+  lang: 'zh-Hans',
+  title: 'Arcomua Help Center',
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  description: 'Online documents for Arcomua Modpack.',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.svg',
@@ -19,8 +20,8 @@ export default defineConfig({
         items: [
           { text: '快速开始', link: '/guide/start' },
           { text: '如何反馈', link: '/guide/feedback' },
-          { text: '安装', link: '/guide/install'},
-          { text: '疑难解答', link: '/guide/qa'}
+          { text: '安装', link: '/guide/install' },
+          { text: '疑难解答', link: '/guide/qa' }
         ]
       },
       {
@@ -49,6 +50,11 @@ export default defineConfig({
         link: 'https://modrinth.com/organization/arcomua-team',
         ariaLabel: 'Modrinth Organization Link'
       }
-    ]
+    ],
+
+    footer: {
+      message: '',
+      copyright: 'CC-BY-NC-SA-4.0 2020-present '
+    }
   }
 })

@@ -16,4 +16,4 @@ Arcomua Modpack目前有两条分支，一是使用Fabric/Quilt模组加载器�
 
 ## 开源协议
 
-[点此查阅](https://github.com/Arcomua/Arcomua-Modpack/blob/Main/LICENSE.txt)开源协议。
+[点此](https://github.com/Arcomua/Arcomua-Modpack/blob/Main/LICENSE.txt)以查阅开源协议。
