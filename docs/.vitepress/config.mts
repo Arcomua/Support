@@ -9,11 +9,49 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.svg',
+    siteTitle: 'Arcomua 帮助中心',
     nav: [
-      { text: '主页', link: 'https://arcomua.com/' },
-      { text: '帮助', link: '/' }
+      { text: '主页', link: 'https://www.arcomua.com/' },
+      { text: '帮助', link: '/' },
+      {
+        text: '项目列表',
+        items: [
+          { text: 'Arcomua Cloth', link: '/packs/a-cloth' },
+          { text: 'Arcomua Anvil', link: '/packs/a-anvil' },
+          { text: 'Arcomua Lite', link: '/packs/a-lite' }
+        ]
+      }
     ],
-
+    search: {
+      provider:'local',
+      options:{
+        locales:{
+          zh:{
+            translations:{
+              button:{
+                buttonText: '搜索',
+                buttonAriaLabel: '搜索'
+              },
+              modal: {
+                displayDetails: '显示详细列表',
+                resetButtonTitle: '重置搜索',
+                backButtonTitle: '关闭搜索',
+                noResultsText: '没有结果',
+                footer: {
+                  selectText: '选择',
+                  selectKeyAriaLabel: '输入',
+                  navigateText: '导航',
+                  navigateUpKeyAriaLabel: '上箭头',
+                  navigateDownKeyAriaLabel: '下箭头',
+                  closeText: '关闭',
+                  closeKeyAriaLabel: 'esc'
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     sidebar: [
       {
         text: '简介',
@@ -40,7 +78,6 @@ export default defineConfig({
         ]
       }
     ],
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Arcomua' },
       {
@@ -51,10 +88,20 @@ export default defineConfig({
         ariaLabel: 'Modrinth Organization Link'
       }
     ],
-
+    lastUpdated: {
+      text: '最后一次更新于',
+      formatOptions: {
+        dateStyle: 'short',
+        timeStyle: 'short'
+      }
+    },
+    editLink: {
+      pattern: 'https://github.com/Arcomua/Support/edit/main/docs/:path',
+      text: '在GitHub上编辑此页'
+    },
     footer: {
-      message: '',
-      copyright: 'CC-BY-NC-SA-4.0 2020-present '
+      message: '基于CC-BY-NC-SA-4.0发布',
+      copyright: '版权所有 © 2020-2024 Arcomua Team'
     }
   }
 })
