@@ -73,8 +73,9 @@ export default defineConfig({
       {
         text: '杂项',
         items: [
-          // { text: 'Markdown Examples', link: '/markdown-examples' },
-          // { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Java版开服指南', link:'https://doc.natfrp.com/offtopic/mc-java-server.html' },
+          { text: '基岩版开服指南', link:'https://doc.natfrp.com/offtopic/mc-bedrock-server.html' },
+          { text: 'Geyser互通服指南', link:'https://doc.natfrp.com/offtopic/mc-geyser.html' }
         ]
       }
     ],

@@ -1,3 +1,7 @@
+---
+editLink: false
+---
+
 # 如何反馈
 
 ## GitHub
