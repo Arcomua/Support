@@ -12,6 +12,7 @@ export default defineConfig({
     siteTitle: 'Arcomua 帮助中心',
     nav: [
       { text: '主页', link: 'https://www.arcomua.com/' },
+      { text: '下载', link: 'https://dl.arcomua.com/' },
       { text: '帮助', link: '/' },
       {
         text: '项目列表',
@@ -102,7 +103,7 @@ export default defineConfig({
     },
     footer: {
       message: '基于CC-BY-NC-SA-4.0发布',
-      copyright: '版权所有 © 2020-2024 Arcomua Team'
+      copyright: '版权所有 © 2020-2025 Arcomua Team'
     }
   }
 })

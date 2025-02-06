@@ -12,7 +12,7 @@ hero:
       link: /guide/start
     - theme: alt
       text: 下载
-      link: https://arcomua.com/
+      link: https://dl.arcomua.com/
 
 
 features:
