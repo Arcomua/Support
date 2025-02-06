@@ -6,7 +6,8 @@ Arcomua Cloth是一个以优化游戏性能为主要目标，同时对原版进�
 
 ## 下载&安装
 
-<https://www.arcomua.com/standard>
+- [Modrinth](https://modrinth.com/modpack/arcomua)
+- [Arcomua 下载站](https://dl.arcomua.com/Arcomua/Cloth)
 
 ## 使用
 
