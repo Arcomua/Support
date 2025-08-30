@@ -14,7 +14,7 @@ Arcomua Lite 是一个对原版进行高度性能优化的整合包，适合追�
 
 ## 使用
 
-[点此](/guide/install)查阅安装教程。
+[点此](/install/introduction)查阅安装教程。
 
 ## 反馈
 
