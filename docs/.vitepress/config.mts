@@ -15,7 +15,7 @@ export default defineConfig({
       { text: '下载', link: 'https://dl.arcomua.com/' },
       { text: '帮助', link: '/' },
       {
-        text: '项目列表',
+        text: '整合包',
         items: [
           { text: 'Arcomua Cloth', link: '/packs/a-cloth' },
           { text: 'Arcomua Anvil', link: '/packs/a-anvil' },
@@ -45,7 +45,7 @@ export default defineConfig({
                   navigateUpKeyAriaLabel: '上箭头',
                   navigateDownKeyAriaLabel: '下箭头',
                   closeText: '关闭',
-                  closeKeyAriaLabel: 'esc'
+                  closeKeyAriaLabel: 'Esc'
                 }
               }
             }
@@ -59,26 +59,35 @@ export default defineConfig({
         items: [
           { text: '快速开始', link: '/guide/start' },
           { text: '如何反馈', link: '/guide/feedback' },
-          { text: '安装', link: '/guide/install' },
           { text: '疑难解答', link: '/guide/qa' }
         ]
       },
       {
         text: '整合包',
         items: [
-          { text: 'Arcomua Cloth', link: '/packs/a-cloth' },
-          { text: 'Arcomua Anvil', link: '/packs/a-anvil' },
-          { text: 'Arcomua Lite', link: '/packs/a-lite' }
+          { text: 'Arcomua Cloth', link: '/pack/a-cloth' },
+          { text: 'Arcomua Anvil', link: '/pack/a-anvil' },
+          { text: 'Arcomua Lite', link: '/pack/a-lite' }
         ]
       },
       {
-        text: '杂项',
+        text: '安装',
         items: [
-          { text: 'Java版开服指南', link:'https://doc.natfrp.com/offtopic/mc-java-server.html' },
-          { text: '基岩版开服指南', link:'https://doc.natfrp.com/offtopic/mc-bedrock-server.html' },
-          { text: 'Geyser互通服指南', link:'https://doc.natfrp.com/offtopic/mc-geyser.html' }
+          { text: '引言', link: '/install/introduction' },
+          { text: '使用 HMCL 安装', link: '/install/hmcl' },
+          { text: '使用 PCL2 安装', link: '/install/pcl2'},
+          { text: '使用 BakaXL 安装', link: '/install/bakaxl'},
+          { text: '使用 PCL2 社区版安装', link: '/install/pcl2-ce'}
         ]
       }
+      // {
+      //   text: '杂项',
+      //   items: [
+      //     { text: 'Java版开服指南', link:'https://doc.natfrp.com/offtopic/mc-java-server.html' },
+      //     { text: '基岩版开服指南', link:'https://doc.natfrp.com/offtopic/mc-bedrock-server.html' },
+      //     { text: 'Geyser互通服指南', link:'https://doc.natfrp.com/offtopic/mc-geyser.html' }
+      //   ]
+      // }
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Arcomua' },

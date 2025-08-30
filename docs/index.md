@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Arcomua Help Center"
   text: "帮助中心"
-  tagline: 高效 · 美化 · 实用 · 开源
+  tagline: 高效 · 美观 · 实用 · 开源
   actions:
     - theme: brand
       text: 快速入门
@@ -13,6 +13,9 @@ hero:
     - theme: alt
       text: 下载
       link: https://dl.arcomua.com/
+    - theme: alt
+      text: 安装
+      link: /install/introduction
 
 
 features:
