@@ -21,12 +21,12 @@ hero:
 features:
   - title: Arcomua Cloth
     details: 🧣Arcomua Modpack的Fabric/Quilt分支，以深度优化为核心，整合大量客户端美化与工具类模组。
-    link: /packs/a-cloth
+    link: /pack/a-cloth
   - title: Arcomua Anvil
     details: 🔨Arcomua Modpack的Forge/NeoForge分支，包含优秀的客户端美化与工具模组整合。
-    link: /packs/a-anvil
+    link: /pack/a-anvil
   - title: Arcomua Lite
     details: ⚡(已停更)紧贴原版的轻量优化整合包
-    link: /packs/a-lite
+    link: /pack/a-lite
 ---
 
