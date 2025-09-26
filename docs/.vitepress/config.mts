@@ -17,9 +17,9 @@ export default defineConfig({
       {
         text: '整合包',
         items: [
-          { text: 'Arcomua Cloth', link: '/packs/a-cloth' },
-          { text: 'Arcomua Anvil', link: '/packs/a-anvil' },
-          { text: 'Arcomua Lite', link: '/packs/a-lite' }
+          { text: 'Arcomua Cloth', link: '/pack/a-cloth' },
+          { text: 'Arcomua Anvil', link: '/pack/a-anvil' },
+          { text: 'Arcomua Lite', link: '/pack/a-lite' }
         ]
       }
     ],
@@ -80,14 +80,6 @@ export default defineConfig({
           { text: '使用 PCL2 社区版安装', link: '/install/pcl2-ce'}
         ]
       }
-      // {
-      //   text: '杂项',
-      //   items: [
-      //     { text: 'Java版开服指南', link:'https://doc.natfrp.com/offtopic/mc-java-server.html' },
-      //     { text: '基岩版开服指南', link:'https://doc.natfrp.com/offtopic/mc-bedrock-server.html' },
-      //     { text: 'Geyser互通服指南', link:'https://doc.natfrp.com/offtopic/mc-geyser.html' }
-      //   ]
-      // }
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Arcomua' },
