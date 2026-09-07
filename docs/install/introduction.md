@@ -10,24 +10,24 @@
 
 但是，您仍需要使用现代硬件和操作系统。过于古老的软硬件很可能无法受到服务支持，且游玩体验可能会很糟糕。
 
-请至少留出 8GB 的存储空间和 2GB 的运行内存以运行 Java 和 Minecraft。
+请至少留出 8 GB 的存储空间和 2 GB 的运行内存以运行 Java 和 Minecraft。
 
-### 安装Java
+### 安装 Java
 
-首先，请确保您的电脑已安装了合适的Java运行时环境（JRE）或 Java 开发套件（JDK）。对于大部分玩家来说，JRE 与 JDK 作用相同。若有 Java 开发需求，可以选择安装 JDK；若希望节省存储空间，可以选择安装 JRE。
+首先，请确保您的电脑已安装合适的 Java 运行时环境（JRE）或 Java 开发套件（JDK）。对于大部分玩家来说，JRE 与 JDK 作用相同。若有 Java 开发需求，可以选择安装 JDK；若希望节省存储空间，可以选择安装 JRE。
 
 请按照下表选择需要安装的 Java 版本，您可以在同一台机器上安装多个不同版本的 Java。
 
 :::warning 警告
-当使用与操作系统不匹配的 Java 版本（32或64位）、使用某些Java 7版本或安装了多个版本的 Java 玩 Minecraft Java 版时可能会在部分情况下引发用户体验问题。
+当使用与操作系统不匹配的 Java 版本（32 或 64 位）、使用某些 Java 7 版本或安装了多个版本的 Java 玩 Minecraft Java 版时，可能会在部分情况下引发用户体验问题。
 :::
 
-|Minecraft版本|最低Java版本|下载链接|
+|Minecraft 版本|最低 Java 版本|下载链接|
 |:-----------:|:------:|:-----:|
-|低于1.7（不包括1.7）|Java7|[Zulu7]|
-|1.7.\*~1.16.\*|Java8|[Zulu8]|
-|1.17.\*~1.20.\*|Java17|[MSJDK17]/[Zulu17]|
-|1.21.\*及以上|Java21|[MSJDK21]/[Zulu21]|
+|低于 1.7（不包括 1.7）|Java 7|[Zulu7]|
+|1.7.\* ~ 1.16.\*|Java 8|[Zulu8]|
+|1.17.\* ~ 1.20.\*|Java 17|[MSJDK17]/[Zulu17]|
+|1.21.\* 及以上|Java 21|[MSJDK21]/[Zulu21]|
 
 <!-- Download Links -->
 [MSJDK17]: <https://learn.microsoft.com/zh-cn/java/openjdk/download#openjdk-17>
@@ -60,4 +60,4 @@
 - [使用 HMCL 安装整合包](/install/hmcl)
 - [使用 PCL2 安装整合包](/install/pcl2)
 - [使用 BakaXL 安装整合包](/install/bakaxl)
-- [使用 PCL2 社区版安装整合包](/install/pcl2-ce)
+- [使用 PCL2 社区版安装整合包（教程编写中）](/install/pcl2-ce)

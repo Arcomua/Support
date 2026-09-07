@@ -12,7 +12,9 @@
 
 ## 在线安装
 
-WIP
+:::warning 教程编写中
+本页的在线安装步骤尚未完成，暂时无法提供完整指引。
+:::
 
 :::info 提示
 若您在使用 PCL2 社区版时遇到其他问题，请先查阅 [PCL 社区版帮助库](https://github.com/PCL-Community/PCL2CEHelp)。

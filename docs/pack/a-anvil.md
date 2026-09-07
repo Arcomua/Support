@@ -4,7 +4,7 @@
 
 Arcomua Anvil 是 Arcomua Modpack 的 Forge/NeoForge 移植版，该整合包以更好的性能优化为目标，带给玩家舒适的游戏体验。
 
-## 下载&安装
+## 下载与安装
 
 - [Modrinth](https://modrinth.com/modpack/arcomua-anvil)
 - [Arcomua 下载站](https://dl.arcomua.com/Anvil)

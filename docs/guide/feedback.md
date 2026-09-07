@@ -16,6 +16,6 @@ editLink: false
 
 请注意：您在该论坛的发言应遵循网站规定与板块规定。
 
-## QQ群
+## QQ 群
 
 点击链接加入群聊【Arcomua Modpack | 交流群】：[群号892836166](https://qm.qq.com/q/J908hGzOcC)
