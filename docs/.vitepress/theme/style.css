@@ -129,3 +129,31 @@
   --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
 }
 
+/**
+ * Component: Translation Notice
+ * -------------------------------------------------------------------------- */
+
+.translation-notice {
+  max-width: 1152px;
+  margin: 24px auto;
+  padding: 12px 16px;
+  border: 1px solid var(--vp-c-warning-2);
+  border-radius: 8px;
+  color: var(--vp-c-text-1);
+  background: var(--vp-c-warning-soft);
+}
+
+.translation-notice strong {
+  color: var(--vp-c-warning-1);
+}
+
+.VPDoc .translation-notice {
+  margin-top: 0;
+}
+
+@media (max-width: 1199px) {
+  .VPHome .translation-notice {
+    margin-right: 24px;
+    margin-left: 24px;
+  }
+}
