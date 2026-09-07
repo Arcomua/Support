@@ -20,7 +20,7 @@
 3. 点击“尝试获取安装此版本”，点击对话框中的“好”。切换页面后，点击左侧栏的“获取热门整合包”。
 
 4. 进入笨蛋广场后，在右上角的搜索栏中输入 “Arcomua”，点击“在 Modrinth 中搜索此关键词”。
-![BakaXL 笨蛋广场](https://raw.githubusercontent.com/Arcomua/Support/refs/heads/assets/BakaXL/BakaXL-Step1.png)
+![BakaXL 笨蛋广场](https://raw.githubusercontent.com/Arcomua/Support/refs/heads/assets/BakaXL/BakaXL-Step2.png)
 
 5. 点击需要下载的整合包，在详情页点击右上角的下载按钮。在左侧使用过滤器选择需要的游戏版本，右侧版本列表中选择最顶上的条目（通常最顶上的是最新版），点击条目右侧的“下载并安装”按钮，在弹出的窗口中点击“好”字样。
 ![BakaXL 下载](https://raw.githubusercontent.com/Arcomua/Support/refs/heads/assets/BakaXL/BakaXL-Step3.png)

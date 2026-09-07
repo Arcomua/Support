@@ -1,4 +1,4 @@
-# 使用 HMCL 安装整合包
+# 使用 PCL2 安装整合包
 
 本文将指导您使用 PCL2 安装 Arcomua Modpack。
 
@@ -19,7 +19,7 @@
 ![PCL2 下载](https://raw.githubusercontent.com/Arcomua/Support/refs/heads/assets/PCL2/PCL2-Step2.png)
 
 3. 找到需要下载的整合包，在详情页选择 Minecraft 版本，展开对应的条目。在下拉菜单中选择最顶上的条目（通常最顶上的是最新版），在弹出的窗口中，点击“确定”字样。
-![PCL2 下载](https://raw.githubusercontent.com/Arcomua/Support/refs/heads/assets/PCL2/PCL2-Step2.png)
+![PCL2 安装](https://raw.githubusercontent.com/Arcomua/Support/refs/heads/assets/PCL2/PCL2-Step3.png)
 
 4. 此时整合包正在后台下载中，请稍等。待安装成功后，点击左上角回到主页。
 

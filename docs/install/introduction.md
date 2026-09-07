@@ -27,7 +27,7 @@
 |低于1.7（不包括1.7）|Java7|[Zulu7]|
 |1.7.\*~1.16.\*|Java8|[Zulu8]|
 |1.17.\*~1.20.\*|Java17|[MSJDK17]/[Zulu17]|
-|高于1.21.\*（包括1.21）|Java21|[MSJDK21]/[Zulu21]|
+|1.21.\*及以上|Java21|[MSJDK21]/[Zulu21]|
 
 <!-- Download Links -->
 [MSJDK17]: <https://learn.microsoft.com/zh-cn/java/openjdk/download#openjdk-17>

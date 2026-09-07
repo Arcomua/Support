@@ -12,7 +12,7 @@ Arcomua Modpack 目前有两条分支，一是使用 Fabric/Quilt 模组加载�
 
 ## 如何开始
 
-[点此](/install/introduction.md)以查阅安装教程。
+[点此](/install/introduction)以查阅安装教程。
 
 ## 开源协议
 
