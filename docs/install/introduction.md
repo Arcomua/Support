@@ -14,30 +14,37 @@
 
 ### 安装 Java
 
-首先，请确保您的电脑已安装合适的 Java 运行时环境（JRE）或 Java 开发套件（JDK）。对于大部分玩家来说，JRE 与 JDK 作用相同。若有 Java 开发需求，可以选择安装 JDK；若希望节省存储空间，可以选择安装 JRE。
+建议优先让启动器自动下载并管理 Java。只有在自动安装失败或需要手动指定运行环境时，才需要自行安装。
 
-请按照下表选择需要安装的 Java 版本，您可以在同一台机器上安装多个不同版本的 Java。
+请根据 Minecraft 版本选择推荐的 64 位 Java：
+
+|Minecraft 版本|推荐 Java 版本|下载链接|
+|:-----------:|:------:|:-----:|
+|1.6 及更早版本|Java 7|[Zulu7]|
+|1.7.\* ~ 1.16.\*|Java 8|[Zulu8]|
+|1.17.x\* ~ 1.20.4\*|Java 17|[MSJDK17]/[Zulu17]|
+|1.20.5\* ~ 26.1|Java 21|[MSJDK21]/[Zulu21]|
+|26.2 及更新版本|Java 25|[MSJDK25]/[Zulu25]|
+
+Minecraft 26.2 必须使用 Java 25 或更新版本，Java 21 无法正常启动该版本。
+
+如果电脑中安装了多个 Java 版本，请在启动器的版本设置中为相应 Minecraft 实例指定正确的 Java 可执行文件。不要依靠系统默认 Java 自动匹配所有游戏版本。
+
+对于 Arcomua Modpack，建议分配约 4GB 内存；使用大型资源包或光影时可提高到约 6GB，但不建议将电脑的全部内存分配给 Minecraft。
 
 :::warning 警告
 当使用与操作系统不匹配的 Java 版本（32 或 64 位）、使用某些 Java 7 版本或安装了多个版本的 Java 玩 Minecraft Java 版时，可能会在部分情况下引发用户体验问题。
 :::
 
-|Minecraft 版本|最低 Java 版本|下载链接|
-|:-----------:|:------:|:-----:|
-|低于 1.7（不包括 1.7）|Java 7|[Zulu7]|
-|1.7.\* ~ 1.16.\*|Java 8|[Zulu8]|
-|1.17.\* ~ 1.20.\*|Java 17|[MSJDK17]/[Zulu17]|
-|1.21.\* 及以上|Java 21|[MSJDK21]/[Zulu21]|
-
 <!-- Download Links -->
 [MSJDK17]: <https://learn.microsoft.com/zh-cn/java/openjdk/download#openjdk-17>
 [MSJDK21]: <https://learn.microsoft.com/zh-cn/java/openjdk/download#openjdk-21>
+[MSJDK25]: <https://learn.microsoft.com/zh-cn/java/openjdk/download#openjdk-25>
 [Zulu7]: <https://www.azul.com/downloads/?version=java-7-lts&show-old-builds=true#zulu>
 [Zulu8]: <https://www.azul.com/downloads/?version=java-8-lts&show-old-builds=true#zulu>
 [Zulu17]: <https://www.azul.com/downloads/?version=java-17-lts&show-old-builds=true#zulu>
 [Zulu21]: <https://www.azul.com/downloads/?version=java-21-lts&show-old-builds=true#zulu>
-
-下载好安装包后，请按照安装向导进行安装操作。安装结束后，您可以选择是否重启计算机。
+[Zulu25]: <https://www.azul.com/downloads/?version=java-25-lts&show-old-builds=true#zulu>
 
 ### 安装启动器
 

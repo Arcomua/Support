@@ -2,11 +2,16 @@
 
 ## What is this?
 
-Arcomua Modpack is a modpack for Minecraft. It focuses on optimizing vanilla gameplay and does not add gameplay content beyond the base game.
+Arcomua Modpack is a vanilla-enhancement modpack for Minecraft: Java Edition. Without adding new blocks, items, biomes, or advancements, it provides performance optimizations, visual enhancements, and practical utilities.
 
-The primary goal of this modpack is to improve game performance. It also deeply enhances the visuals of vanilla gameplay and enriches the player experience while pursuing better performance.
+Two branches are currently maintained:
 
-Arcomua Modpack currently has two branches: Arcomua Cloth, which uses the Fabric/Quilt mod loader, and Arcomua Anvil, which uses Forge/NeoForge. You can find introductions to the respective modpacks in the sidebar.
+* **Arcomua Cloth**: Uses Fabric and focuses on client-side performance optimization, visual enhancements, and practical utilities.
+* **Arcomua Anvil**: Uses NeoForge and provides a similar experience for players who prefer the NeoForge ecosystem.
+
+Arcomua Lite is no longer maintained and is kept only for historical versions. New players are not recommended to use it for current versions.
+
+Note that a client-side modpack mainly improves FPS, frame time, memory usage, and single-player gameplay. It cannot directly reduce remote server MSPT or fix remote server TPS issues.
 
 ## How to get started
 

@@ -20,11 +20,13 @@ You can describe the issue in the group chat in detail. Someone may be able to h
 
 We have no plans to make this modpack compatible with mobile devices.
 
-## Is there a server pack?
+## Does the modpack include a server pack?
 
-Arcomua Modpacks are vanilla-based modpacks. You can start a server using a vanilla server implementation such as Paper.
+Arcomua Modpack is a client-side modpack and does not need to be installed on a remote server. You can generally use it to connect to Vanilla, Paper, Purpur, or Fabric servers that allow vanilla clients, but you must still follow the server's rules regarding maps, schematic overlays, inventory sorting, Easy Place, and other assistance features.
 
-If you choose to use a Fabric server, consider using [Relentleserver](https://modrinth.com/modpack/relentleserver).
+Arcomua Modpack can improve client FPS, frame time, memory usage, and the performance of the integrated server in single-player, but it cannot directly improve the TPS or MSPT of a remote server.
+
+If you need to optimize a server, choose server software, server-side optimization mods, or plugins appropriate for its server type, then test and configure them separately.
 
 ## I cannot open Modrinth
 

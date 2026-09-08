@@ -14,30 +14,37 @@ Please reserve at least 8 GB of storage space and 2 GB of RAM to run Java and Mi
 
 ### Install Java
 
-First, make sure your computer has a suitable Java Runtime Environment (JRE) or Java Development Kit (JDK) installed. For most players, JRE and JDK serve the same purpose. If you need Java development tools, you can install the JDK; if you want to save storage space, you can install the JRE.
+We recommend letting your launcher download and manage Java automatically. You only need to install Java manually if automatic installation fails or you need to specify a runtime yourself.
 
-Choose the Java version you need to install according to the table below. You can install multiple different Java versions on the same machine.
+Choose the recommended 64-bit Java version according to your Minecraft version:
+
+|Minecraft version|Recommended Java version|Download links|
+|:-----------:|:------:|:-----:|
+|1.6 and earlier|Java 7|[Zulu7]|
+|1.7.\* ~ 1.16.\*|Java 8|[Zulu8]|
+|1.17.x\* ~ 1.20.4\*|Java 17|[MSJDK17]/[Zulu17]|
+|1.20.5\* ~ 26.1|Java 21|[MSJDK21]/[Zulu21]|
+|26.2 and later|Java 25|[MSJDK25]/[Zulu25]|
+
+Minecraft 26.2 requires Java 25 or later. Java 21 cannot launch this version correctly.
+
+If you have multiple Java versions installed, specify the correct Java executable for each Minecraft instance in the launcher's version settings. Do not rely on the system default Java to match every game version automatically.
+
+For Arcomua Modpack, allocating about 4 GB of memory is recommended. You can increase this to about 6 GB when using large resource packs or shaders, but do not allocate all of your computer's memory to Minecraft.
 
 :::warning Warning
 Using a Java version whose architecture does not match your operating system (32-bit or 64-bit), using certain Java 7 versions, or having multiple Java versions installed when playing Minecraft: Java Edition may cause user experience issues in some cases.
 :::
 
-|Minecraft version|Minimum Java version|Download links|
-|:-----------:|:------:|:-----:|
-|Below 1.7 (excluding 1.7)|Java 7|[Zulu7]|
-|1.7.* ~ 1.16.*|Java 8|[Zulu8]|
-|1.17.* ~ 1.20.*|Java 17|[MSJDK17]/[Zulu17]|
-|1.21.* and above|Java 21|[MSJDK21]/[Zulu21]|
-
 <!-- Download Links -->
 [MSJDK17]: <https://learn.microsoft.com/en-us/java/openjdk/download#openjdk-17>
 [MSJDK21]: <https://learn.microsoft.com/en-us/java/openjdk/download#openjdk-21>
+[MSJDK25]: <https://learn.microsoft.com/en-us/java/openjdk/download#openjdk-25>
 [Zulu7]: <https://www.azul.com/downloads/?version=java-7-lts&show-old-builds=true#zulu>
 [Zulu8]: <https://www.azul.com/downloads/?version=java-8-lts&show-old-builds=true#zulu>
 [Zulu17]: <https://www.azul.com/downloads/?version=java-17-lts&show-old-builds=true#zulu>
 [Zulu21]: <https://www.azul.com/downloads/?version=java-21-lts&show-old-builds=true#zulu>
-
-After downloading the installer, follow the installation wizard. Once installation is complete, you can choose whether to restart your computer.
+[Zulu25]: <https://www.azul.com/downloads/?version=java-25-lts&show-old-builds=true#zulu>
 
 ### Install a launcher
 

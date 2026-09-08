@@ -20,11 +20,14 @@
 
 本整合包没有兼容手机的计划。
 
-## 有没有服务端？
+## 整合包有没有服务端？
 
-Arcomua Modpack 均为原版整合，使用原版服务端（如 Paper）开服即可。
+Arcomua Modpack 是客户端整合包，不需要安装到远端服务器。玩家通常可以使用它连接允许原版客户端进入的 Vanilla、Paper、Purpur 或 Fabric 服务器，但仍应遵守服务器关于地图、投影、自动整理、Easy Place 等辅助功能的规定。
 
-若您选择使用Fabric服务端，请考虑使用[Relentleserver](https://modrinth.com/modpack/relentleserver)。
+Arcomua Modpack 可以改善客户端 FPS、帧时间、内存占用和单人游戏中的内置服务器性能，但不能直接改善远端服务器的 TPS 或 MSPT。
+
+如果您需要优化服务器，应根据服务器类型另行选择服务端软件、服务端优化模组或插件，并进行独立测试和配置。
+
 
 ## 打不开Modrinth
 

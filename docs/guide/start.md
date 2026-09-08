@@ -2,13 +2,16 @@
 
 ## 这是什么
 
-<!-- **Arcomua 系列整合包——深度优化与游戏体验增强型整合包** -->
+Arcomua Modpack 是面向 Minecraft Java 版的原版增强整合包，在不增加新方块、物品、生物群系和游戏进度的前提下，提供性能优化、视觉增强和实用工具。
 
-Arcomua Modpack 是为游戏 Minecraft 制作的整合包，整合包为原版优化类型，不包含除原版游戏之外的游戏内容。
+目前主要维护两个分支：
 
-本整合包以优化游戏性能为主要目标，在对原版进行深度美化、丰富玩家体验的同时，也追求更好的性能表现。
+* **Arcomua Cloth**：使用 Fabric，定位为客户端性能优化、视觉增强和实用工具整合。
+* **Arcomua Anvil**：使用 NeoForge，为偏好 NeoForge 生态的玩家提供相近体验。
 
-Arcomua Modpack 目前有两条分支，一是使用 Fabric/Quilt 模组加载器的 Arcomua Cloth，二是使用 Forge/NeoForge 的 Arcomua Anvil。您可在侧栏找到对应的整合包介绍。
+Arcomua Lite 已停止维护，仅保留历史版本，不建议新玩家将其作为当前版本使用。
+
+需要注意，客户端整合包主要改善 FPS、帧时间、内存占用和单人游戏体验，不能直接降低远端服务器的 MSPT，也不能直接修复远端服务器的 TPS 问题。
 
 ## 如何开始
 
