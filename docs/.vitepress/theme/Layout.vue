@@ -6,12 +6,6 @@ const { Layout } = DefaultTheme
 </script>
 
 <template>
-  <Layout>
-    <template #home-hero-before>
-      <TranslationNotice />
-    </template>
-    <template #doc-before>
-      <TranslationNotice />
-    </template>
-  </Layout>
+  <Layout />
+  <TranslationNotice />
 </template>
