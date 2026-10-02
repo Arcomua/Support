@@ -33,24 +33,26 @@ function dismissNotice() {
 </script>
 
 <template>
-  <aside
-    v-if="isVisible"
-    class="translation-notice"
-    role="status"
-    aria-live="polite"
-    aria-label="Translation notice"
-  >
-    <div class="translation-notice__content">
-      <strong>Translation notice</strong>
-      <p>This page was translated by an LLM and may contain inaccuracies.</p>
-    </div>
-    <button
-      class="translation-notice__close"
-      type="button"
-      aria-label="Dismiss translation notice"
-      @click="dismissNotice"
+  <Transition name="translation-notice">
+    <aside
+      v-if="isVisible"
+      class="translation-notice"
+      role="status"
+      aria-live="polite"
+      aria-label="Translation notice"
     >
-      <span aria-hidden="true">×</span>
-    </button>
-  </aside>
+      <div class="translation-notice__content">
+        <strong>Translation notice</strong>
+        <p>This page was translated by an LLM and may contain inaccuracies.</p>
+      </div>
+      <button
+        class="translation-notice__close"
+        type="button"
+        aria-label="Dismiss translation notice"
+        @click="dismissNotice"
+      >
+        <span aria-hidden="true">×</span>
+      </button>
+    </aside>
+  </Transition>
 </template>
